@@ -1,0 +1,594 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#009444" />
+    <meta
+      name="description"
+      content="PrintFUO makes printing, design, publishing and branded products easy. Send us a message on WhatsApp and we'll handle the rest."
+    />
+    <title>PrintFUO — The easy way to print</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-mark"><span></span><span></span><span></span></div>
+      <p>Making things happen<span class="dots">...</span></p>
+    </div>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="PrintFUO home"
+          ><img src="assets/printfuo-logo.png" alt="PrintFUO logo"
+        /></a>
+        <button
+          class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#services">Services</a
+          ><a href="#how-it-works">How It Works</a><a href="#faqs">FAQs</a>
+          <a
+            class="button button-small button-green whatsapp-link"
+            href="https://wa.me/08072490812"
+            >Order on WhatsApp <span>↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> YOUR PRINTING PARTNER AT FUO
+            </div>
+            <h1>
+              The easy way<br />to <span class="gradient-text">print.</span>
+            </h1>
+            <p class="hero-lead">
+              Just send us a message. <strong>We'll handle the rest.</strong>
+            </p>
+            <p class="hero-description">
+              PrintFUO makes it easy to order prints, designs and branded
+              products right from WhatsApp. Send us what you need, and we'll
+              handle the rest.
+            </p>
+            <div class="hero-actions">
+              <a href="https://wa.me/08072490812" class="button button-green whatsapp-link"
+                >Start an order <span class="arrow">↗</span></a
+              ><a href="#services" class="text-link"
+                >Explore services <span>↓</span></a
+              >
+            </div>
+          </div>
+          <div class="hero-art reveal delay-2">
+            <div class="art-backdrop"></div>
+            <div class="floating-card card-top">
+              <span class="mini-icon green">✓</span>
+              <div>
+                <b>Order received</b><small>We'll take it from here</small>
+              </div>
+            </div>
+            <div class="gallery-frame" aria-label="PrintFUO work gallery">
+              <div class="gallery-track" id="heroGalleryTrack">
+                <!-- Add or remove slides here, or edit the PRINTFUO_GALLERY array in script.js. -->
+                <figure class="gallery-slide">
+                  <img
+                    src="assets/gallery/event-flyer.jpg"
+                    alt="Sample event flyer design"
+                  />
+                  <figcaption>
+                    <span>01 / CREATIVE PRINTS</span><b>Make your moment.</b>
+                  </figcaption>
+                </figure>
+                <figure class="gallery-slide">
+                  <img
+                    src="assets/gallery/brand-design.jpg"
+                    alt="Sample business branding design"
+                  />
+                  <figcaption>
+                    <span>02 / BRANDING</span><b>Make your brand stand out.</b>
+                  </figcaption>
+                </figure>
+                <figure class="gallery-slide">
+                  <img
+                    src="assets/gallery/publishing.jpg"
+                    alt="Sample book publishing design"
+                  />
+                  <figcaption>
+                    <span>03 / PUBLISHING</span
+                    ><b>From idea to finished book.</b>
+                  </figcaption>
+                </figure>
+              </div>
+              <button
+                class="gallery-arrow gallery-prev"
+                type="button"
+                aria-label="Previous image"
+              >
+                ‹
+              </button>
+              <button
+                class="gallery-arrow gallery-next"
+                type="button"
+                aria-label="Next image"
+              >
+                ›
+              </button>
+              <div class="gallery-controls">
+                <div
+                  class="gallery-dots"
+                  id="heroGalleryDots"
+                  aria-label="Choose gallery image"
+                ></div>
+                <span class="gallery-count" id="heroGalleryCount">01 / 03</span>
+              </div>
+            </div>
+            <div class="floating-card card-bottom">
+              <span class="mini-icon yellow">↗</span>
+              <div>
+                <b>Ready when you are</b><small>Print • Design • Create</small>
+              </div>
+            </div>
+            <div class="sparkle sparkle-one">✳</div>
+            <div class="sparkle sparkle-two">✦</div>
+          </div>
+        </div>
+        <a href="#services" class="scroll-cue"
+          ><span></span> SCROLL TO EXPLORE</a
+        >
+      </section>
+
+      <section class="trust-strip">
+        <div class="container trust-inner">
+          <span>MADE FOR YOUR EVERYDAY</span><b>Students</b><i></i
+          ><b>Creators</b><i></i><b>Businesses</b><i></i><b>Big ideas</b>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <div class="eyebrow">
+                <span class="eyebrow-dot"></span> WHAT WE DO
+              </div>
+              <h2>
+                Whatever you need<br />produced,
+                <span class="gradient-text">we’ve got you.</span>
+              </h2>
+            </div>
+            <p>
+              From everyday documents to event materials and branded products,
+              get what you need with just a message on WhatsApp.
+            </p>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-top">
+                <span class="service-number">01</span
+                ><span class="service-icon">▤</span>
+              </div>
+              <h3>Document Services</h3>
+              <p>
+                Assignments, reports, forms, notes, booklets and other everyday
+                documents.
+              </p>
+              <a href="#order" class="service-link"
+                >Print a document <span>↗</span></a
+              >
+            </article>
+            <article class="service-card reveal delay-1">
+              <div class="service-top">
+                <span class="service-number">02</span
+                ><span class="service-icon">✳</span>
+              </div>
+              <h3>Small &amp; Large Format</h3>
+              <p>
+                Flyers, posters, banners, stickers and other sizes for personal
+                or commercial use..
+              </p>
+              <a href="#order" class="service-link"
+                >Create a design <span>↗</span></a
+              >
+            </article>
+            <article class="service-card reveal delay-2">
+              <div class="service-top">
+                <span class="service-number">03</span
+                ><span class="service-icon">▧</span>
+              </div>
+              <h3> Design </h3>
+              <p>
+                Need a design before printing? We can help prepare your idea for production
+              </p>
+              <a href="#order" class="service-link"
+                >Build your brand <span>↗</span></a
+              >
+            </article>
+            <article class="service-card reveal">
+              <div class="service-top">
+                <span class="service-number">04</span
+                ><span class="service-icon">▣</span>
+              </div>
+              <h3>Branded Merchandise</h3>
+              <p>
+                Build a consistent brand with printed merchandise for teams, businesses and events
+              </p>
+              <a href="#order" class="service-link"
+                >Plan an event <span>↗</span></a
+              >
+            </article>
+            <article class="service-card service-feature reveal delay-1">
+              <div class="service-top">
+                <span class="service-number">05</span
+                ><span class="service-icon">↗</span>
+              </div>
+              <div>
+                <div class="feature-label">FROM MANUSCRIPT TO MASTERPIECE</div>
+                <h3>Book Editorial & Publishing</h3>
+                <p>
+                  Have a book, research publication, magazine or manuscript
+                  ready to publish? We can help with editing, proofreading,
+                  typesetting, cover design, formatting, printing and finishing
+                  to take your manuscript from document to finished publication.
+                </p>
+                <a href="#order" class="service-link"
+                  >Bring your book to life <span>↗</span></a
+                >
+              </div>
+            </article>
+            <article class="service-card service-cta reveal delay-2">
+              <div class="cta-star">✳</div>
+              <h3>Have something else in mind?</h3>
+              <p>
+                Tell us what you need. We'll help you figure out the best way to
+                make it happen.
+              </p>
+              <a href="#order" class="button button-dark"
+                >Let's talk <span>↗</span></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section-pad" id="how-it-works">
+        <div class="container process-grid">
+          <div class="process-intro reveal">
+            <div class="eyebrow eyebrow-light">
+              <span class="eyebrow-dot"></span> NO STRESS. JUST PRINT.
+            </div>
+            <h2>
+              Good to go<br />in <span class="lime-text">3 simple steps.</span>
+            </h2>
+            <p>
+              No complicated forms. No unnecessary back-and-forth. Just tell us
+              what you need.
+            </p>
+            <a class="button button-lime whatsapp-link" href="https://wa.me/08072490812"
+              >Start on WhatsApp <span>↗</span></a>
+          </div>
+          <div class="steps">
+            <article class="step reveal">
+              <div class="step-count">01</div>
+              <div>
+                <h3>Send us a message</h3>
+                <p>
+                  Tell us what you want printed or created. Attach your file,
+                  design or inspiration and include any specifications.
+                </p>
+              </div>
+              <span class="step-symbol">↗</span>
+            </article>
+            <article class="step reveal delay-1">
+              <div class="step-count">02</div>
+              <div>
+                <h3>Get your quote</h3>
+                <p>
+                  We'll review the details, confirm what's possible and share a
+                  quote and estimated turnaround time.
+                </p>
+              </div>
+              <span class="step-symbol">₦</span>
+            </article>
+            <article class="step reveal delay-2">
+              <div class="step-count">03</div>
+              <div>
+                <h3>Approve & collect</h3>
+                <p>
+                  Once you approve, we'll get to work. We'll arrange collection
+                  or delivery based on your order.
+                </p>
+              </div>
+              <span class="step-symbol">✓</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="audience section-pad">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <div class="eyebrow">
+                <span class="eyebrow-dot"></span> MADE FOR YOU
+              </div>
+              <h2>
+                Whoever you are,<br />we’re
+                <span class="gradient-text">here to help.</span>
+              </h2>
+            </div>
+            <p>
+              One easy place for the things you need printed, designed and
+              produced.
+            </p>
+          </div>
+          <div class="audience-grid">
+            <article class="audience-card reveal">
+              <span class="audience-emoji">🎓</span>
+              <h3>Students</h3>
+              <p>
+                Assignments, lecture notes, projects, research work and
+                presentations.
+              </p>
+              <span class="audience-index">01 / STUDY SMARTER</span>
+            </article>
+            <article class="audience-card reveal delay-1">
+              <span class="audience-emoji">💼</span>
+              <h3>Businesses</h3>
+              <p>
+                Business cards, branded materials, promotional prints and
+                everyday business needs.
+              </p>
+              <span class="audience-index">02 / SHOW UP WELL</span>
+            </article>
+            <article class="audience-card reveal delay-2">
+              <span class="audience-emoji">🎉</span>
+              <h3>Events & Organisations</h3>
+              <p>
+                Programmes, flyers, invitations, banners and materials for your
+                next big moment.
+              </p>
+              <span class="audience-index">03 / MAKE IT COUNT</span>
+            </article>
+            <article class="audience-card reveal delay-3">
+              <span class="audience-emoji">✍️</span>
+              <h3>Authors & Creators</h3>
+              <p>
+                Publishing support, creative projects and the printed pieces
+                that bring ideas to life.
+              </p>
+              <span class="audience-index">04 / MAKE YOUR MARK</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="why section-pad">
+        <div class="container why-grid">
+          <div class="why-visual reveal">
+            <div class="why-ring ring-one"></div>
+            <div class="why-ring ring-two"></div>
+            <div class="why-center">
+              <img src="assets/printfuo-logo.png" alt="PrintFUO" /><span
+                >THE EASY WAY TO PRINT.</span
+              >
+            </div>
+            <div class="why-tag tag-one">EASY ORDERING</div>
+            <div class="why-tag tag-two">QUALITY FIRST</div>
+            <div class="why-tag tag-three">MADE FOR FUO</div>
+          </div>
+          <div class="why-copy reveal delay-1">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> WHY PRINTFUO
+            </div>
+            <h2>
+              Less hassle.<br /><span class="gradient-text"
+                >More getting done.</span
+              >
+            </h2>
+            <p>
+              Getting something printed shouldn't be a project of its own. We
+              keep the process straightforward, so you can focus on what
+              matters.
+            </p>
+            <ul class="benefit-list">
+              <li>
+                <span>✓</span>
+                <div>
+                  <b>Simple WhatsApp ordering</b
+                  ><small>Reach us from the phone you already use.</small>
+                </div>
+              </li>
+              <li>
+                <span>✓</span>
+                <div>
+                  <b>Support when you need it</b
+                  ><small
+                    >Get help with your files, design and specifications.</small
+                  >
+                </div>
+              </li>
+              <li>
+                <span>✓</span>
+                <div>
+                  <b>Clear quotes & timelines</b
+                  ><small
+                    >Know the cost and expected turnaround before
+                    approval.</small
+                  >
+                </div>
+              </li>
+              <li>
+                <span>✓</span>
+                <div>
+                  <b>For one-offs and bulk orders</b
+                  ><small>From a few pages to projects for a whole team.</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-banner section-pad" id="order">
+        <div class="container">
+          <div class="order-panel reveal">
+            <div class="order-pattern"></div>
+            <div class="order-content">
+              <div class="eyebrow eyebrow-light">
+                <span class="eyebrow-dot"></span> READY WHEN YOU ARE
+              </div>
+              <h2>
+                Got something<br />to <span class="lime-text">print?</span>
+              </h2>
+              <p>
+                Send us a message, share the details and let's get it moving.
+              </p>
+              <a href="https://wa.me/08072490812" class="button button-lime whatsapp-link"
+                >Order on WhatsApp <span>↗</span></a
+              ><small>Have your file or idea ready? Even better.</small>
+            </div>
+            <div class="order-stamp">
+              <img style= "width: 70px;"src="assets/printfuo-logo.png" alt="PrintFUO logo">
+              <div class="stamp-arrow">↗</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faqs section-pad" id="faqs">
+        <div class="container faq-grid">
+          <div class="faq-intro reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> GOOD TO KNOW
+            </div>
+            <h2>
+              Got questions?<br /><span class="gradient-text"
+                >We’ve got answers.</span
+              >
+            </h2>
+            <p>
+              Still wondering about something? Message us and we'll help you
+              out.
+            </p>
+            <a href="https://wa.me/08072490812" class="text-link whatsapp-link"
+              >Ask us on WhatsApp <span>↗</span></a
+            >
+          </div>
+          <div class="faq-list reveal delay-1">
+            <details class="faq-item">
+              <summary><span>Where do you deliver?</span><i>+</i></summary>
+              <p>We currently serve FUO and surrounding areas.</p>
+            </details>
+            <details class="faq-item">
+              <summary><span>How do I place an order?</span><i>+</i></summary>
+              <p>
+                Send us what you need through WhatsApp, along with your file and
+                specifications. We'll review it and send you a quote.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>
+                <span>Do I need to have a design?</span><i>+</i>
+              </summary>
+              <p>
+                No. If you don't have a design yet, we can help create one for
+                you.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary><span>How do I pay?</span><i>+</i></summary>
+              <p>
+                We'll provide payment instructions after confirming your order
+                and quotation.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>
+                <span>Can I order from my hostel or home?</span><i>+</i>
+              </summary>
+              <p>
+                Yes. Send your order remotely and we'll arrange delivery or
+                collection.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary><span>Can I make bulk orders?</span><i>+</i></summary>
+              <p>
+                Yes. We handle individual and bulk orders for students,
+                organisations, businesses and events.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>
+                <span>How long will my order take?</span><i>+</i>
+              </summary>
+              <p>
+                Turnaround depends on what you're ordering and the quantity.
+                We'll give you an estimated completion time before you approve
+                the order.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <a class="footer-brand" href="#top"
+            ><img src="assets/printfuo-logo.png" alt="PrintFUO logo"
+          /></a>
+          <p>The Easy Way to Print</p>
+          <a href="#" class="footer-order whatsapp-link"
+            >Let's make it happen <span>↗</span></a
+          >
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year"></span> PrintFUO. All rights reserved.</span
+          ><a href="#top">Back to top ↑</a><span>MADE FOR YOUR EVERYDAY.</span>
+        </div>
+      </div>
+    </footer>
+    <button class="back-top" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
